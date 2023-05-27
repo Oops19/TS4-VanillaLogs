@@ -34,10 +34,14 @@ class ModInfo(CommonModInfo):
 
     @property
     def _version(self) -> str:
-        return '3.0.0'
+        return '3.0.2'
 
 
 """
+v3.0.2
+    Update README and compile.sh
+v3.0.1
+    Update README and compile.sh
 v3.0.0
     2023-05 (c) o19
     Code cleanup and re-write, see vanilla_logs.py for details.
