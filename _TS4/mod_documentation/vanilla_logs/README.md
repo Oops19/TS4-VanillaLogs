@@ -14,7 +14,7 @@ All console changes are temporarily. They are not persisted in the configuration
 ### Configuration file
 On startup, it will create a configuration file with these options:
 * ENABLE_LOGGING: bool = True ... Write the vanilla logs when starting TS4
-* BUFFERING: int = 1 ............ Buffer ans write one line. <0:full; 0:off, 1:line; 2:os_default; >2:byte_size. https://docs.python.org/2/library/functions.html#open
+* BUFFERING: int = 1 ............ Buffer and write one line. <0:default; 0:unbuffered; 1:line; 2:os_default; >2:byte_size. https://docs.python.org/2/library/functions.html#open
 * FORCE_FLUSH: bool = True ...... False: Don't flush the file after every write (if buffering is set)
 * LOG_LEVEL: int = 5 ........... `[0..5]` (FATAL, ERROR, WARN, INFO, DEBUG or ALWAYS)
 * GROUPS: set = {} .............. {}=All. Specify individual case-sensitive groups to log, e.g. {'Zone', 'Utils'}
@@ -25,7 +25,7 @@ The file is based on the Python dict() datatype. Use 'True' or 'False' as this i
 # Addendum
 
 ## Game compatibility
-This mod has been tested with `The Sims 4` 1.100.147 (2023-09), S4CL 2.8 (2023-08), TS4Lib 0.1.7 (2023-09).
+This mod has been tested with `The Sims 4` 1.104.58, S4CL 3.0 (2023-12), TS4Lib 0.1.8 (2023-09).
 It is expected to be compatible with many upcoming releases of TS4, S4CL and TS4Lib.
 
 ## Dependencies
@@ -59,7 +59,7 @@ Some log entries in the log file ('mod_logs' folder) may contain the local usern
 [Donations](https://www.patreon.com/o19)
 
 ## Copyright and License
-* © 2023 [Oops19](https://github.com/Oops19)
+* © 2024 [Oops19](https://github.com/Oops19)
 * License for '.package' files: [Electronic Arts TOS for UGC](https://tos.ea.com/legalapp/WEBTERMS/US/en/PC/)  
 * License for other media unless specified differently: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) unless the Electronic Arts TOS for UGC overrides it.
 This allows you to use this mod and re-use the code even if you don't own The Sims 4.
