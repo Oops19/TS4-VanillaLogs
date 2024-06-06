@@ -25,13 +25,15 @@ The file is based on the Python dict() datatype. Use 'True' or 'False' as this i
 # Addendum
 
 ## Game compatibility
-This mod has been tested with `The Sims 4` 1.104.58, S4CL 3.0 (2023-12), TS4Lib 0.1.8 (2023-09).
+This mod has been tested with `The Sims 4` 1.107.112, S4CL 3.4, TS4Lib 0.3.20 (2024-05).
 It is expected to be compatible with many upcoming releases of TS4, S4CL and TS4Lib.
 
 ## Dependencies
-* [The Sims 4](https://www.ea.com/games/the-sims/the-sims-4)
+Download the ZIP file, not the sources.
+* [This Mod](../../releases/latest)
 * [TS4-Library](https://github.com/Oops19/TS4-Library/releases/latest)
 * [S4CL](https://github.com/ColonolNutty/Sims4CommunityLibrary/releases/latest)
+* [The Sims 4](https://www.ea.com/games/the-sims/the-sims-4)
 
 If not installed download and install TS4 and these mods.
 All are available for free.
@@ -54,7 +56,7 @@ This mod does not send any data to tracking servers. The code is open source, no
 Some log entries in the log file ('mod_logs' folder) may contain the local username, especially if files are not found (WARN, ERROR).
 
 ## External Links
-[Sources](https://v/Oops19/)
+[Sources](https://github.com/Oops19/)
 [Support](https://discord.gg/d8X9aQ3jbm)
 [Donations](https://www.patreon.com/o19)
 
