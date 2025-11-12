@@ -24,11 +24,12 @@ On startup, the mod generates a configuration file with the following options:
 
 The file uses Python’s dict() syntax — not JSON. Use True or False (case-sensitive).
 
+---
 
 # 📝 Addendum
 
 ## 🔄 Game compatibility
-This mod has been tested with `The Sims 4` 1.119.109, S4CL 3.15, TS4Lib 0.3.42.
+This mod has been tested with `The Sims 4` 1.119.109, S4CL 3.17, TS4Lib 0.3.42.
 It is expected to remain compatible with future releases of TS4, S4CL, and TS4Lib.
 
 ## 📦 Dependencies
